@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "react-native-expo-tailwind-template",
+    "scheme": "react-native-expo-tailwind-template_Scheme",
     "slug": "react-native-expo-tailwind-template",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
