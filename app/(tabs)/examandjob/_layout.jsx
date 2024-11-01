@@ -6,11 +6,11 @@ export default function BillLayout() {
     <Stack>
       <Stack.Screen
         name="index" // This refers to app/(tabs)/examandjob/index.js
-        options={{ title: 'Exam and Jobs' , headerShown: false }}
+        options={{ title: 'Exam and Jobs' , headerShown: true }}
       />
       <Stack.Screen
         name="[id]" // This refers to app/(tabs)/examandjob/[id].js
-        options={{ title: 'Job Details' , headerShown: false }}
+        options={{ title: 'Job Details' , headerShown: true }}
       />
     </Stack>
   );
