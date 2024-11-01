@@ -4,7 +4,7 @@ import { Stack } from 'expo-router';
 export default function BillLayout() {
     return (
         <Stack>
-            <Stack.Screen name="bill" 
+            <Stack.Screen name="billsPage" 
               options={{ title: 'Bills' }} 
             />
             
