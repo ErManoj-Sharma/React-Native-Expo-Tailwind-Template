@@ -5,7 +5,7 @@ export default function BillLayout() {
   return (
     <Stack>
       <Stack.Screen
-        name="examAndJobPage" // This refers to app/(tabs)/examandjob/index.js
+        name="index" // This refers to app/(tabs)/examandjob/index.js
         options={{ title: 'Exam and Jobs' , headerShown: true }}
       />
       <Stack.Screen

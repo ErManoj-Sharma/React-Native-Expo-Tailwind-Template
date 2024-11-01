@@ -7,7 +7,10 @@ const page = () => {
     return (
         <View>
             <Text>Bills index page</Text>
-            <Button onPress={() => router.push("/examandjob")} title="go to xam"></Button>
+            <Button onPress={() => router.push("/bills/1")} title="go to first bill"></Button>
+            <Button onPress={() => router.push("/bills/12122")} title="go to 2 bill"></Button>
+
+            <Button onPress={() => router.replace("/")} title="go to Home"></Button>
         </View>
     )
 }
