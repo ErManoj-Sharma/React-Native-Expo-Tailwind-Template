@@ -6,11 +6,11 @@ export default function RechargeLayout() {
     <Stack>
       <Stack.Screen
         name="rechargePage" // This refers to app/(tabs)/recharge/index.js
-        options={{ title: 'Recharge' , headerShown: false }}
+        options={{ title: 'Recharge' , headerShown: true }}
       />
       <Stack.Screen
         name="[id]" // This refers to app/(tabs)/recharge/[id].js
-        options={{ title: 'Recharge Details' , headerShown: false }}
+        options={{ title: 'Recharge Details' , headerShown: true }}
       />
     </Stack>
   );
