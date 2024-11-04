@@ -21,3 +21,5 @@ export default function TabLayout() {
     </Tabs>
   );
 }
+
+// Change name of folder and name of tab screen if you want to changet tab name 
